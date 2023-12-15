@@ -1,0 +1,31 @@
+
+div.password{
+    width: 500px;
+    position: relative;
+    margin: 50px auto;
+}
+div.password input{
+    height:100% ;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .1);
+}
+div.password span{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.5em;
+}
+div.calc button{
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: wheat;
+    margin-left: 10px;
+    margin-top: 10px;
+}

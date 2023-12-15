@@ -6,16 +6,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.a {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dna-wrapper {}
-
 aside {
     min-width: 200px;
     max-width: 300px;
@@ -63,10 +53,4 @@ img {
 #root {
     display: flex;
     width: 100%;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }

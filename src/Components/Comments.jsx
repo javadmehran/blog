@@ -1,15 +1,20 @@
-import React from "react";
+import React from 'react'
 
-export default function Comments({ comments }) {
-  const items = comments?.map((e, index) => (
-    <div class="comment" key={index}>
-      <p>{e.body}</p>
-    </div>
-  ));
+export default function ({comments}) {
+
+const items=comments?.map((e,index)=>(
+  <div className="comment" key={index}>
+  <p>{e.body}</p>
+</div>
+))
+
   return (
-    <div class="comments">
-      <p>Comments:</p>
-        {items}
+
+
+    <div className="comments">
+    <p>comments:</p>
+   {items}
     </div>
-  );
+
+  )
 }
